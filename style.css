@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background: #61faf5;
+    background-image: url('sky.gif');
+    background-repeat: no-repeat;
+     background-size: cover;
+ 
 }
 img{
     width: 100%;
