@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('sky.gif');
-    background-repeat: no-repeat;
-     background-size: cover;
+    background: blue;
+    height: 100vh;
  
 }
 img{
@@ -66,4 +65,18 @@ button{
     align-items: center;
     gap: 20px;
     padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .navigations {
+        flex-direction: row;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .sidebar {
+        padding: 10px;
+    }
 }
